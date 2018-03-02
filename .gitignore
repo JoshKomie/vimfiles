@@ -1,3 +1,4 @@
 autoload/
 fonts/
 plugged/
+*.swp
