@@ -49,10 +49,10 @@ set hlsearch
 syntax enable
 colorscheme gotham
 let g:airlinetheme='gotham'
-"set guifont=Source\ Code\ Pro\ for\ Powerline:h11
+"set guifont=Source\ Code\ Pro\ for\ Powerline
 "set guifont=DejaVu\ Sans\ Mono:h10:b
-"set guifont=Source\ Code\ Pro\ 11:h11
-set guifont=Consolas:h11
+set guifont=Fira_Mono_For_Powerline:h11
+"set guifont=Consolas:h11
 let g:airline#extensions#tabline#enabled = 1
 let g:airline#extensions#tabline#show_buffers = 1
 let g:airline#extensions#tabline#show_tabs = 0
@@ -61,7 +61,8 @@ let g:airline#extensions#tabline#buffer_idx_mode = 0
 let g:airline#extensions#tabline#buffer_nr_show = 1
 "let g:airline_left_sep='>'
 "let g:airline_right_sep='<'
-let g:airline_powerline_fonts = 0
+let g:airline_powerline_fonts = 1
+set encoding=utf-8
 "gvim
 "set guioptions-=m  "remove menu bar
 set guioptions-=T  "remove toolbar
