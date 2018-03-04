@@ -72,6 +72,8 @@ set guioptions-=L  "remove left-hand scroll bar
 "mocha
 nnoremap <Leader>t :!mocha %<CR>
 
+"ctrlp
+let g:ctrlp_custom_ignore = 'node_modules\|DS_Store\|git'
 "set autochdir
 let g:buftabline_numbers = 1
 "maps
