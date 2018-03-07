@@ -5,6 +5,7 @@ Plug 'altercation/vim-colors-solarized'
 Plug 'tomasiser/vim-code-dark'
 Plug 'badacadabra/vim-archery'
 Plug 'whatyouhide/vim-gotham'
+Plug 'morhetz/gruvbox'
 Plug 'scrooloose/nerdtree'
 Plug 'kien/ctrlp.vim'
 Plug 'easymotion/vim-easymotion'
@@ -30,7 +31,7 @@ set expandtab
 set shiftwidth=2
 set autoindent
 set smartindent
-
+set backspace=indent,eol,start
 "misc
 set number
 set showcmd
@@ -47,8 +48,10 @@ set hlsearch
 
 "colors
 syntax enable
-colorscheme gotham
-let g:airlinetheme='gotham'
+colorscheme gruvbox
+set background=dark
+let g:airlinetheme='gruvbox'
+let g:gruvbox_contrast_light="medium"
 "set guifont=Source\ Code\ Pro\ for\ Powerline
 "set guifont=DejaVu\ Sans\ Mono:h10:b
 set guifont=Fira_Mono_for_Powerline:h11
