@@ -24,6 +24,7 @@ Plug 'tpope/vim-fugitive'
 Plug 'powerline/fonts'
 Plug 'geekjuice/vim-mocha'
 Plug 'vim-scripts/BufOnly.vim'
+Plug 'quabug/vim-gdscript'
 call plug#end()
 
 "indentation
@@ -34,6 +35,10 @@ set shiftwidth=2
 set autoindent
 set smartindent
 set backspace=indent,eol,start
+
+
+autocmd Filetype cs setlocal ts=4 sw=4 expandtab softtabstop=4
+
 "misc
 set number
 set showcmd
