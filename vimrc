@@ -43,7 +43,7 @@ autocmd Filetype cs setlocal ts=4 sw=4 expandtab softtabstop=4
 set number
 set showcmd
 set cursorline
-filetype indent on
+filetype plugin indent on
 set wildmenu
 set lazyredraw
 set showmatch
@@ -102,5 +102,6 @@ nnoremap <Leader>c :BufOnly<CR>
 nnoremap <C-tab> :bn<CR>
 nnoremap <C-S-tab> :bp<CR>
 
-inoremap <Leader>l console.log("");<esc>hhi
 nnoremap <leader>q :bp<cr>:bd #<cr>
+
+
